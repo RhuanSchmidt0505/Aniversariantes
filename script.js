@@ -25,9 +25,9 @@ function calcularTempoAteAniversario(dataAniversario) {
 }
 
 // Defina as datas dos aniversários
-var seuAniversario = new Date("2024-08-01");
-var aniversarioColega1 = new Date("2024-10-15");
-var aniversarioColega2 = new Date("2024-12-25");
+var seuAniversario = new Date("2024-05-05 10:03");
+var aniversarioColega1 = new Date("2024-09-11 10:03");
+var aniversarioColega2 = new Date("2024-05-24 10:03");
 
 // Exiba os tempos até os aniversários
 document.getElementById("seuAniversarioCountdown").innerHTML = calcularTempoAteAniversario(seuAniversario) + " dias";
